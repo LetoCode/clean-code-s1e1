@@ -28,7 +28,7 @@ body {
 
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .info { 
     text-align: center;
@@ -60,20 +60,20 @@ body {
 
 .item-list {
 
-  margin:0;
+  margin: 0;
   padding: 0px;
 
 }
 
 .item, .item-header {
 
-  list-style:none;
+  list-style: none;
 
 }
 
 .input,.btn{
 
-  outline:none;
+  outline: none;
 
 }
 
@@ -208,19 +208,19 @@ body {
 /* Edit Task */
 .item-list .item .input-text {
 
-  display:none
+  display: none
 
 }
 
 .item-list .item.edit-mode .input-text {
 
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 
 }
 
 .item-list .item.edit-mode .label-task {
 
-  display:none;
-  
+  display: none;
+
 }
