@@ -16,13 +16,13 @@ body {
 
 }
 
-.info-img {
+.info__img {
 
   width: 100%;
 
 }
 
-.info .more-info {
+.info .info__more {
 
   font-family: fantasy, cursive;
 
@@ -36,7 +36,7 @@ body {
 
 }
 
-.container {
+.main {
 
   display: block;
   width: 500px;
@@ -52,27 +52,27 @@ body {
 
 }
 
-.task-row-wrapper {
+.add-tasks__row-wrapper {
 
   display: flex;
 
 }
 
-.item-list {
+.main__item-list {
 
   margin: 0;
   padding: 0px;
 
 }
 
-.item, 
-.item-header {
+.item-list__item, 
+.main__item-header {
 
   list-style: none;
 
 }
 
-.input,
+.item__input,
 .btn{
 
   outline: none;
@@ -98,8 +98,8 @@ body {
 }
 
 /* Heading */
-.item-header,
-.label-add-task {
+.main__item-header,
+.add-task__label {
 
   color: #333;
   font-weight: 700;
@@ -111,7 +111,7 @@ body {
 
 }
 
-.input-text {
+.item__input_text {
 
   margin: 0;
   font-size: 18px;
@@ -126,28 +126,28 @@ body {
 
 }
 
-.input-text:focus {
+.item__input_text:focus {
 
   color: #333;
 
 }
 
 /* New Task */
-.label-add-task {
+.add-task__label {
 
   display: block;
   margin: 0 0 20px;
 
 }
 
-.input#new-task {
+.item__input#new-task {
 
   width: 318px;
 
 }
 
 /* Task list */
-.item {
+.item-list__item {
 
   overflow: hidden;
   padding: 20px 0;
@@ -159,19 +159,19 @@ body {
 
 }
 
-.item > * {
+.item-list__item > * {
 
   vertical-align: middle;
 
 }
 
-.item > .input-checkbox {
+.item-list__item > .item__input_checkbox {
 
   margin: 0 10px;
 
 }
 
-.item > .label-task {
+.item-list__item > .item__label-task {
 
   padding-left: 10px;
   box-sizing: border-box;
@@ -180,12 +180,12 @@ body {
 
 }
 
-.item > .input-text {
+.item-list__item > .item__input_text {
 
   width: 226px;
 
 }
-.btn-delete-img {
+.item__btn-delete-img {
 
   height: 2em;
   transform: rotateZ(45deg);
@@ -193,14 +193,14 @@ body {
 
 }
 
-.btn-delete-img:hover {
+.item__btn-delete-img:hover {
 
   transform: rotateZ(0);
 
 }
 
 /* Completed */
-.item-list#completed-tasks .label-task {
+.main__item-list#completed-tasks .item__label-task {
 
   text-decoration: line-through;
   color: #888;
@@ -208,20 +208,20 @@ body {
 }
 
 /* Edit Task */
-.item-list .item .input-text {
+.main__item-list .item-list__item .item__input_text {
 
   display: none;
 
 }
 
-.item-list .item.edit-mode .input-text {
+.main__item-list .item-list__item.edit-mode .item__input_text {
 
   display: inline-block;
   width: 224px;
 
 }
 
-.item-list .item.edit-mode .label-task {
+.main__item-list .item-list__item.edit-mode .item__label-task {
 
   display: none;
 
