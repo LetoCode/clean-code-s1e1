@@ -65,13 +65,15 @@ body {
 
 }
 
-.item, .item-header {
+.item, 
+.item-header {
 
   list-style: none;
 
 }
 
-.input,.btn{
+.input,
+.btn{
 
   outline: none;
 
